@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { ChevronDownIcon } from '@heroicons/react/24/solid'
+import { ArrowLeftOnRectangleIcon, ChevronDownIcon ,ClockIcon,Cog6ToothIcon,ComputerDesktopIcon, CurrencyDollarIcon, DevicePhoneMobileIcon, LanguageIcon, PaperAirplaneIcon, PencilIcon  } from '@heroicons/react/24/solid'
 
 const Navbar = () => {
   return (
@@ -9,9 +9,53 @@ const Navbar = () => {
 <nav className="bg-[#0c314d] border-[#134e7a] border-b-2 ">
     <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2.5">
         
-        <div className="flex items-center">
-            <a href="tel:5541251234" className="mr-6 text-sm font-medium text-gray-500 dark:text-white hover:underline">(555) 412-1234</a>
-            <a href="#" className="text-sm font-medium text-blue-600 dark:text-blue-500 hover:underline">Login</a>
+    <div className="flex items-center space-x-1">
+    <button type="button" class="text-white bg-[#145180] hover:bg-[#0d4e80] focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 ">
+
+    <ComputerDesktopIcon className='h-6 w-6' />
+    </button>
+    <button type="button" class="text-white bg-[#145180] hover:bg-[#0d4e80] focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 ">
+
+    <DevicePhoneMobileIcon className='h-6 w-6' />
+    </button>
+    <button type="button" class="text-white bg-[#145180] hover:bg-[#0d4e80] focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 ">
+
+    <PaperAirplaneIcon className='h-6 w-6' />
+    </button>
+    <button type="button" class="text-white bg-[#145180] hover:bg-[#3eb025] focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 ">
+
+    <CurrencyDollarIcon className='h-6 w-6' />
+    </button>
+    <button type="button" class="text-white bg-[#6fe33d] hover:bg-[#0d4e80] focus:ring-4 focus:ring-blue-300  rounded-lg text-md font-bold px-5 py-2.5 mr-2 mb-2 ">
+277889 INR
+    </button>
+    </div>
+        <div className="flex items-center space-x-1">
+        <button type="button" className="text-white flex bg-[#145180] hover:bg-[#0d4e80] focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 ">
+
+        <ArrowLeftOnRectangleIcon className='h-6 w-6' />
+        Logout
+        </button>
+        <button type="button" className="text-white flex bg-[#6fe33d] hover:bg-[#0d4e80] focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 ">
+
+        <PencilIcon className='h-6 w-6' />
+        Resgistration
+        </button>
+        <button type="button" className="text-white flex bg-[#145180] hover:bg-[#0d4e80] focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 ">
+
+        <Cog6ToothIcon className='h-6 w-6' />
+        
+        </button>
+        <button type="button" className="text-white flex bg-[#145180] hover:bg-[#0d4e80] focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 ">
+
+        <ClockIcon className='h-6 w-6' />
+        
+        </button>
+        <button type="button" className="text-white flex bg-[#145180] hover:bg-[#0d4e80] focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 ">
+
+        <LanguageIcon className='h-6 w-6' />
+        
+        </button>
         </div>
     </div>
 </nav>
