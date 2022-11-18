@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Footer from '../components/Footer'
 import Herosection from '../components/Herosection'
 import Navbar from '../components/Navbar'
 
@@ -19,6 +20,8 @@ export default function Home() {
      <main className='bg-[#1b4463] '>
       <Herosection/>
      </main>
+     {/* Footer */}
+     <Footer/>
     </div>
   )
 }
