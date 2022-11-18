@@ -5,14 +5,23 @@ import { Carousel } from "react-responsive-carousel";
 const Carousels = () => {
   return (
     <div className="m-3">
-      <Carousel width="65%" dynamicHeight={true} infiniteLoop={true} interval={2000}>
+      <Carousel
+        width="full"
+        dynamicHeight={true}
+        infiniteLoop={true}
+        interval={2000}
+      >
         <div>
           <img src="https://1xbet.ng/genfiles/cms/designed_banners/159/image/edbf0136d720156dcc5ab393cb32daac.jpg" />
-          <h1 className="legend text-extrabold ">1xbet IS NOW PARTNER OF AKWA UNITED</h1>
+          <h1 className="legend text-extrabold ">
+            1xbet IS NOW PARTNER OF AKWA UNITED
+          </h1>
         </div>
         <div>
           <img src="	https://1xbet.ng/genfiles/cms/designed_banners/159/image/eafe5c66aec54c7c38a809e03bb182a7.jpg" />
-          <p className="legend">BET ON THE WORLD CUP TO WIND BENTLY AND OTHER TWO PRICES </p>
+          <p className="legend">
+            BET ON THE WORLD CUP TO WIND BENTLY AND OTHER TWO PRICES{" "}
+          </p>
         </div>
         <div>
           <img src="https://1xbet.ng/genfiles/cms/designed_banners/159/image/8600e2779e5a92fe200da0c32cd6b6e2.jpg" />

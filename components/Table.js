@@ -13,9 +13,9 @@ import TableContent from "./TableContent";
 const Table = () => {
   return (
     <div>
-      <div className="overflow-x-auto relative shadow-md sm:rounded-lg m-3 w-[64%] ">
-        <table className="w-[65%]  truncate text-sm text-left text-blue-100 ">
-          <thead className="text-xs  rounded-md truncateext-white uppercase bg-[#144466] dark:text-white">
+      <div className="overflow-x-auto relative shadow-md sm:rounded-lg m-3 w-full ">
+        <table className="w-full truncate text-sm text-left text-blue-100 ">
+          <thead className="text-xs rounded-md truncateext-white uppercase bg-[#144466] ">
             <tr className="flex">
               <th
                 scope="col"
@@ -26,7 +26,7 @@ const Table = () => {
               </th>
               <th
                 scope="col"
-                className="py-3 px-6 truncate  flex gap-1 items-center justify-center"
+                className="py-3 px-6 truncate flex gap-1 items-center justify-center"
               >
                 <PuzzlePieceIcon className="h-6 w-6" />
                 Cricket
@@ -47,7 +47,7 @@ const Table = () => {
               </th>
               <th
                 scope="col"
-                className="py-3 px-6 truncate flex gap-1 items-center justify-center hover:border-b-[#6fe33d]-2  "
+                className="py-3 px-6 truncate flex gap-1 items-center justify-center hover:border-b-[#6fe33d]-2 "
               >
                 <HandRaisedIcon className="h-6 w-6" />
                 Action
@@ -79,7 +79,6 @@ const Table = () => {
           <TableContent />
           <TableContent />
           <TableContent />
-         
         </table>
       </div>
     </div>

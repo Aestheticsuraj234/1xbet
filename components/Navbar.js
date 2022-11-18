@@ -14,7 +14,7 @@ import {
   ComputerDesktopIcon,
   CurrencyDollarIcon,
   DevicePhoneMobileIcon,
-  LanguageIcon,  
+  LanguageIcon,
   PaperAirplaneIcon,
   PencilIcon,
 } from "@heroicons/react/24/solid";
@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className="bg-[#0c314d] border-[#134e7a] border-b-2 ">
-        <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2.5">
+        <div className=" flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2.5">
           <div className="flex items-center space-x-1">
             <button
               type="button"
